@@ -1,0 +1,21 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFC107; /* Amber color */
+}
+
+body {
+  background-color: #FFEB3B; /* Light Gold color */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: #FFC107; /* Amber on smaller screens */
+  }
+}
