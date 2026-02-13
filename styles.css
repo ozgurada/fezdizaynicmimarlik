@@ -1,0 +1,60 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15%;
+}
+
+header {
+    background-color: gold;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggle {
+        display: block;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: gold;
+    }
+    nav.active ul {
+        display: flex;
+    }
+}
+
+/* Hamburger menu styles */
+.navbar-toggle.active {
+    color: black;
+}
+
+/* Responsive elements */
+.section {
+    padding: 5%;
+}
+
+.section-title {
+    font-size: 3vw;
+    color: gold;
+}
+
+.footer {
+    text-align: center;
+    padding: 2%;
+    background-color: gold;
+    font-size: 2vw;
+}
